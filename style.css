@@ -281,7 +281,7 @@ nav ul li a:hover::after {
     height: 200px;
   }
   .homepage {
-    margin: 100px 200px;
+    margin: 100px 210px;
   }
   .aboutpage {
     width: 1020px;
@@ -299,7 +299,7 @@ nav ul li a:hover::after {
   }
   .form {
     width: 1020px;
-    height: 100vh;
+    height: 170vh;
   }
   .projects h1 {
     margin-left: 200px;
