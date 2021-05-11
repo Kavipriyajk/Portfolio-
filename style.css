@@ -270,18 +270,25 @@ nav ul li a:hover::after {
 @media screen and (max-width: 700px) {
   nav ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-top: 40px;
     justify-content: center;
-    margin-left: 0.5px;
+    display: none;
+  }
+  .navbar ul li a {
+    position: relative;
+    left: 470px;
   }
   .kavi {
-    padding-top: 50px;
+    padding-top: 40px;
   }
+  
   .navbar {
-    height: 200px;
+    height: 150px;
   }
+
   .homepage {
-    margin: 100px 210px;
+    margin: 100px 200px;
   }
   .aboutpage {
     width: 1020px;
@@ -299,10 +306,11 @@ nav ul li a:hover::after {
   }
   .form {
     width: 1020px;
-    height: 170vh;
+    height: 150vh;
   }
   .projects h1 {
     margin-left: 200px;
+    font-size: 25px;
   }
   .form h1 {
     text-align: center;
